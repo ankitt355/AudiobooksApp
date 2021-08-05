@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="padding2">20dp</dimen>
+    <dimen name="padding3">20dp</dimen>
+    <dimen name="padding4">20dp</dimen>
+    <dimen name="padding5">20dp</dimen>
+    <dimen name="padding6">20dp</dimen>
+    <dimen name="paddingaboutus">20dp</dimen>
+    <dimen name="tpadding1">20dp</dimen>
+    <dimen name="tpadding2">20dp</dimen>
+    <dimen name="tpadding3">20dp</dimen>
+    <dimen name="tpadding4">20dp</dimen>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aboutus"
+        android:background="@drawable/shape5"
+        android:textColor="@color/white"
+        android:padding="@dimen/paddingaboutus"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textSize="40dp"
+        android:text="@string/about_us"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/aboutus">
+
+        <TextView
+            android:id="@+id/abouttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autoLink="all"
+            android:textColorLink="@color/sundown"
+            android:text="@string/paragraphaboutus"
+            android:textSize="17dp"
+            android:textStyle="italic"
+            android:lineSpacingExtra="8sp"
+            android:layout_below="@id/abouttext"
+            android:padding="20dp"/>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

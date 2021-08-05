@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/icon"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_below="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="My Profile!"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/emailAddressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/greeting"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/greeting"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/emailAddressTitle" />
+
+    <TextView
+        android:id="@+id/fullNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name:"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_below="@+id/emailAddressTitle"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/fullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/emailAddressTitle"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/fullNameTitle"/>
+
+    <TextView
+        android:id="@+id/phonenoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone No:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/fullNameTitle"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/phoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/fullNameTitle"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/phonenoTitle"/>
+
+
+
+</RelativeLayout>

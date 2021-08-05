@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trending4Activity">
+
+    <TextView
+        android:id="@+id/star_lovers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape5"
+        android:textColor="@color/white"
+        android:padding="@dimen/tpadding4"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="@string/the_star_lovers"/>
+
+    <TextView
+        android:id="@+id/tpoet4"
+        android:layout_below="@id/star_lovers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tpadding4"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:text="@string/by_grace_james"
+        android:textStyle="bold"
+        android:background="@drawable/shape5"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/tplay4"
+        android:layout_below="@+id/tpoet4"
+        android:layout_width="76dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/play"
+        android:text="Play"
+        android:textColor="@color/white">
+
+    </Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tpoet4">
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="@string/tparagraph4"
+            android:textSize="17dp"
+            android:lineSpacingExtra="8sp"
+            android:layout_below="@id/t4"
+            android:padding="20dp"/>
+    </ScrollView>
+
+
+</RelativeLayout>

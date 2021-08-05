@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37025209583",
+    "project_id": "audiobooks-app",
+    "storage_bucket": "audiobooks-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37025209583:android:1f7bf6d0016c2409c38f1a",
+        "android_client_info": {
+          "package_name": "com.example.audiobooksapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37025209583-8e6lhtd8e59g96tj0rfv9jg7q77h08ds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCVS2OWkjMfBwivCAfEl9fTBn6FImLZDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37025209583-8e6lhtd8e59g96tj0rfv9jg7q77h08ds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

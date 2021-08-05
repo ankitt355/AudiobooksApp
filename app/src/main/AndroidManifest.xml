@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.audiobooksapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AudiobooksApp">
+        <activity android:name=".Trending5bActivity"></activity>
+        <activity android:name=".Trending5aActivity" />
+        <activity android:name=".Trending5Activity" />
+        <activity android:name=".MyProfileActivity" />
+        <activity android:name=".More4Activity" />
+        <activity android:name=".More3Activity" />
+        <activity android:name=".More2Activity" />
+        <activity android:name=".More1Activity" />
+        <activity android:name=".Trending4Activity" />
+        <activity android:name=".Trending3Activity" />
+        <activity android:name=".Trending2Activity" />
+        <activity android:name=".Trending1Activity" />
+        <activity android:name=".Poem6Activity" />
+        <activity android:name=".Poem5Activity" />
+        <activity android:name=".Poem4Activity" />
+        <activity android:name=".Poem3Activity" />
+        <activity android:name=".Poem2Activity" />
+        <activity android:name=".ForgotActivity" />
+        <activity android:name=".Poem1Activity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".PoemActivity" />
+        <activity android:name=".MoreActivity" />
+        <activity android:name=".TrendingActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
